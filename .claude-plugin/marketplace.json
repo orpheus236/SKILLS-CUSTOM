@@ -1,0 +1,30 @@
+{
+  "name": "SKILLS-CUSTOM",
+  "version": "1.0.0",
+  "description": "Kumpulan custom skills untuk Claude Code: landing page designer, project starter, dan codebase auditor",
+  "owner": {
+    "name": "Orpheus236",
+    "email": "willsenwinata2@gmail.com",
+    "url": "https://github.com/orpheus236"
+  },
+  "plugins": [
+    {
+      "name": "landing-designer",
+      "source": "./skills/landing-designer",
+      "description": "Create high-quality, conversion-focused landing pages with strong design and marketing structure. Use when building or improving marketing landing pages for any product or service.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "project-starter",
+      "source": "./skills/project-starter",
+      "description": "Help build new projects from scratch. Provides structured guidance and scaffolding for starting any type of project (web app, full-stack, backend, AI agent, etc.). Use when starting a new project from zero.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "codebase-auditor",
+      "source": "./agent-skills/skills/codebase-auditor",
+      "description": "Perform comprehensive codebase inspection, architecture review, and systematic bug detection. Use when user wants deep audit, structural analysis, bug hunting, or architecture review of the current project.",
+      "version": "1.0.0"
+    }
+  ]
+}
