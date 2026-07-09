@@ -1,7 +1,7 @@
 {
   "name": "SKILLS-CUSTOM",
   "version": "1.0.0",
-  "description": "Kumpulan custom skills untuk Claude Code: landing page designer, project starter, dan codebase auditor",
+  "description": "Kumpulan custom skills untuk Claude Code: landing page designer, project starter, readiness auditor, dan codebase auditor",
   "owner": {
     "name": "Orpheus236",
     "email": "willsenwinata2@gmail.com",
@@ -36,6 +36,12 @@
       "name": "workspace-designer",
       "source": "./skills/workspace-designer",
       "description": "Design modern workspaces and dashboards for web applications, especially AI agent tools. Helps with layout structure, component selection, UX patterns, and frontend implementation using Next.js + Tailwind. Use when building internal tools, admin panels, or AI workspaces.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "readiness-auditor",
+      "source": "./skills/readiness-auditor",
+      "description": "Assess whether a project, product, or initiative is ready to proceed by reviewing scope, risks, dependencies, technical health, and launch readiness. Use when validating preparation before execution, delivery, or release.",
       "version": "1.0.0"
     },
     {
