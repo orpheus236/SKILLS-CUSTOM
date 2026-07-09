@@ -25,6 +25,24 @@
       "source": "./agent-skills/skills/codebase-auditor",
       "description": "Perform comprehensive codebase inspection, architecture review, and systematic bug detection. Use when user wants deep audit, structural analysis, bug hunting, or architecture review of the current project.",
       "version": "1.0.0"
+    },
+    {
+      "name": "prd-creator",
+      "source": "./skills/prd-creator",
+      "description": "Create detailed and comprehensive Product Requirements Documents (PRD). Supports codebase analysis, prioritization, and effort estimation. Use when defining new features, improvements, or new products.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "workspace-designer",
+      "source": "./skills/workspace-designer",
+      "description": "Design modern workspaces and dashboards for web applications, especially AI agent tools. Helps with layout structure, component selection, UX patterns, and frontend implementation using Next.js + Tailwind. Use when building internal tools, admin panels, or AI workspaces.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "video-content-creator",
+      "source": "./skills/video-content-creator",
+      "description": "Help create high-quality demo videos and promotional videos. Supports planning, scripting, tone adjustment, and prompt generation for AI video tools. Use when building video content for any product or brand.",
+      "version": "1.0.0"
     }
   ]
 }
