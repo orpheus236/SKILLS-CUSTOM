@@ -1,7 +1,7 @@
 {
   "name": "SKILLS-CUSTOM",
   "version": "1.0.0",
-  "description": "Kumpulan custom skills untuk Claude Code: landing page designer, project starter, readiness auditor, dan codebase auditor",
+  "description": "Kumpulan custom skills untuk Claude Code: landing page designer, project starter, readiness auditor, codebase auditor, dan winrate optimizer",
   "owner": {
     "name": "Orpheus236",
     "email": "willsenwinata2@gmail.com",
@@ -42,6 +42,12 @@
       "name": "readiness-auditor",
       "source": "./skills/readiness-auditor",
       "description": "Assess whether a project, product, or initiative is ready to proceed by reviewing scope, risks, dependencies, technical health, and launch readiness. Use when validating preparation before execution, delivery, or release.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "winrate-optimizer",
+      "source": "./skills/winrate-optimizer",
+      "description": "Analyze and improve winrate for Binance Futures trading strategies. Evaluates performance, identifies weaknesses in signal, entry, risk management, and exit logic, then provides prioritized recommendations. Can analyze codebase and trading data.",
       "version": "1.0.0"
     },
     {
