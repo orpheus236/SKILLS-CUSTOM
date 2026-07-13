@@ -1,7 +1,7 @@
 {
   "name": "SKILLS-CUSTOM",
   "version": "1.0.0",
-  "description": "Kumpulan custom skills untuk Claude Code: landing page designer, project starter, readiness auditor, codebase auditor, dan winrate optimizer",
+  "description": "Kumpulan custom skills untuk Claude Code: landing page designer, project starter, readiness auditor, codebase auditor, winrate optimizer, dan opus orchestrator",
   "owner": {
     "name": "Orpheus236",
     "email": "willsenwinata2@gmail.com",
@@ -54,6 +54,12 @@
       "name": "video-content-creator",
       "source": "./skills/video-content-creator",
       "description": "Help create high-quality demo videos and promotional videos. Supports planning, scripting, tone adjustment, and prompt generation for AI video tools. Use when building video content for any product or brand.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "opus-orchestrator",
+      "source": "./skills/opus-orchestrator",
+      "description": "Use Opus as the architect/orchestrator. Routes implementation work primarily to Grok 4.5 while maintaining high judgment quality. Use when building or improving multi-step features, agents, or complex systems.",
       "version": "1.0.0"
     }
   ]
