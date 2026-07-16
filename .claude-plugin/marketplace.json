@@ -47,8 +47,8 @@
     {
       "name": "winrate-optimizer",
       "source": "./skills/winrate-optimizer",
-      "description": "Analyze and improve winrate for Binance Futures trading strategies. Evaluates performance, identifies weaknesses in signal, entry, risk management, and exit logic, then provides prioritized recommendations. Can analyze codebase and trading data.",
-      "version": "1.0.0"
+      "description": "Analyze and improve trading strategy winrate across Futures, Forex, and equities. Reviews signal quality, entry/exit logic, risk management, regime adaptation, and performance metrics for strategy review, backtest analysis, and bot optimization.",
+      "version": "1.0.1"
     },
     {
       "name": "video-content-creator",
